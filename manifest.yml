@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: wingu-red-c
+  host: wingu-red-c
+  disk_quota: 1024M
+  services:
+  - wingu-red-c-cloudantNoSQLDB
+  - availability-monitoring-auto
